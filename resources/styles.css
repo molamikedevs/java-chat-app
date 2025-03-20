@@ -1,0 +1,57 @@
+/* styles.css */
+.root {
+    -fx-background-color: #f0f0f0;
+    -fx-padding: 10px;
+}
+
+.chat-area {
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-padding: 10px;
+    -fx-spacing: 5px; /* Spacing between messages */
+}
+
+.input-field {
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-padding: 5px;
+}
+
+.send-button {
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-background-color: #4CAF50; /* Green background */
+    -fx-text-fill: white; /* White text */
+    -fx-padding: 5px 10px;
+    -fx-border-radius: 5px; /* Rounded corners */
+}
+
+.send-button:hover {
+    -fx-background-color: #45a049; /* Darker green on hover */
+}
+
+/* Style for messages sent by the current user */
+.my-message {
+    -fx-fill: #888; /* Light gray text color */
+    -fx-font-weight: bold;
+    -fx-background-color: #fafafa; /* Light gray background */
+    -fx-padding: 5px;
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-background-radius: 5px; /* Rounded corners */
+}
+
+/* Style for messages received from other users */
+.other-message {
+    -fx-fill: #393646; /* Light gray text color */
+    -fx-font-weight: bold;
+    -fx-background-color: #f0f0f0; /* Light gray background */
+    -fx-padding: 5px;
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-background-radius: 5px; /* Rounded corners */
+}
