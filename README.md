@@ -136,7 +136,4 @@ To set up the project, create the following folder and file structure:
 4. **Socket Errors**:
    - If you see `SocketException: Socket closed`, ensure that the server and client handle disconnections gracefully.
 
----
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
